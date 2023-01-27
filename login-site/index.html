@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-site_benjamin</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box">
+        <h1 class="style">Registration</h1>
+        <input type="text" id="email" placeholder="email"> <br>
+        <p id="email-text" class="green red"></p>
+        <input type="text" id="password" placeholder="password"> <br>
+        <ul>
+            <li id="upper" class="style">Atleast one uppercase</li>
+            <li id="lower" class="style">Atleast one lowercase</li>
+            <li id="special-char" class="style">Atleast one special symbol</li>
+            <li id="number" class="style">Atleast one number</li>
+            <li id="length" class="style">Atleast 12 charecters</li>
+        </ul>
+        <!--ampel-->
+        <div>
+            <span id="dot1" class="dot"></span>
+            <span id="dot2" class="dot"></span>
+            <span id="dot3" class="dot"></span>
+            <span id="dot4" class="dot"></span>
+            <span id="dot5" class="dot"></span>
+        </div>
+
+        <input type="submit" value="check" id="button" onclick="check();">
+        <p id="text187"></p>
+        <input type="submit" value="weiter" id="weiter" class="weiter inactive" onclick="message();"> <br>
+        <script src="./script.js"></script>
+        <a class="style link" href="./login.html">Du hast bereits ein Konto? Hier anmelden</a>
+    </div>
+</body>
+</html>

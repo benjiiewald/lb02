@@ -1,0 +1,55 @@
+/* Klassen für Funktionen */
+.inactive {
+    background-color: rgb(52, 150, 39);
+    opacity: 50%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active {
+    background-color: rgb(52, 150, 39);
+    opacity: 100%;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    color: green;
+}
+.red {
+    color: red;
+}
+.hiden{
+    display: none;
+}
+li {
+    color: red;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid;
+  }
+.green2 {
+    background-color: green;
+}
+/* allgemeine Styles */
+.style {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+color: black;
+}
